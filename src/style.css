@@ -1,0 +1,93 @@
+body {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190718/pngtree-blue-and-white-whimsical-waves-seamless-pattern-image_284006.jpg)
+}
+h1{
+  color: #e63946;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  margin-top: 5em;
+}
+
+  .continue{
+    width: 20%;
+    margin-right: 30%;
+    margin-left: 40%;
+    size: 35px;
+    padding: 1%;
+
+  border-radius: 5px;
+    background-color: lightgray;
+    color: rgb(16, 16, 17);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+  .pay{
+    width: 20%;
+    margin-right: 80%;
+    margin-left: 40%;
+    size: 30px;
+
+  border-radius: 3px;
+    background-color: rgb(25, 10, 236);
+    color: aliceblue;
+    
+  }
+  .formulario{
+    text-align: left;
+    
+  }
+
+
+  .recuadro{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(229, 177, 177);
+    border-radius: 30px;
+    border-color: #30ade7ad;
+    border-width: 10px;
+    width: 350px;
+    
+    
+  }
+  .CVV{
+    width: 10%;
+  }
+
+  .webpay{
+    margin-right: 50%;
+    margin-left: 30%;
+    width: 40%;
+  }
+.imgtimon{
+ width: 250px;
+ height: 250px;
+ object-fit: cover;
+ padding: 10px;
+ float: left;
+ position:relative;
+ margin-top: 1em;
+ margin-left: 13em;
+ margin-bottom: 3em;
+}
+
+.imgpropela{
+ 
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  padding: 10px;
+  float: left;
+  position:relative;
+  margin-top: 1em;
+  margin-left: 15em;
+  margin-bottom: 3em;
+  
+}
+
+
