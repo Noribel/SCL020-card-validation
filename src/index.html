@@ -1,14 +1,92 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+  <div id="paginaUno" class="paginaUno" style="display: block;">
+    <div><h1><strong>WELCOME TO NAUTICAL <br> INSTITUTE FOR SEAFERS</strong></h1></div>
+    <div><img class="imgtimon" src="/Img/TIMON.jpg"></div>
+    <div><img class="imgpropela" src="/Img/PROPELA.jpg"></div>
+    
+    <button type="button" class="continue" id="continue"><strong>CONTINUE</strong></button>
+    
+
+  </div>
+
+  <div id="paginaDos" class="paginaDos" style="display: none;">
+    <div><img class="imgdeck1" src="/Img/deck1.jpg"></div>
+    <p>DECK</p>
+    <P>NAVIGATION  200$</P>
+    <P>RADARS  350$</P>
+    <div><img class="imgmaquinas" src="/Img/maquinas.jpg"></div>
+    <P>ENGINE</P>
+    <P>ENGINE SIMULATOR  1000$</P>
+    <P>BOILERS  150$</P>
+
+    <button type="button" class="buyNow" id="buy"><strong>BUY NOW</strong></button>
+    
+
+  </div>
+    
+
+  <header></header>
+  <main>
+
+    <div id="recuadro" class="recuadro" style="display: none;">
+      <legend class="topic"><strong></strong></legend>
+      <form id="formulario" class="formulario">
+        <br>
+
+        <div><label for="card">Card Number</label>
+          <input type="text" name="card" required id="card" autocomplete="off" placeholder="XXXX XXXX XXXX-XXXX"
+            maxlength="16" autofocus pattern="[0-9]+" minlength="16">
+        </div>
+
+        <div> <label for="name">Full name</label>
+          <input type="name" id="name" name="name" required autocomplete="off" placeholder="Full name">
+        </div>
+
+        <div><label for="start">Expiry date:</label>
+        <input type="date" id="date" name="date" value="YY-MM-DD" min="2020-01-01" max="2030-12-01">
+        </div>
+
+        <div> <label for="cvv">CVV</label>
+          <input type="text" name="cvv" required id="cvv" autocomplete="off" placeholder="XXX" class="CVV" minlength="3" maxlength="3">
+
+          <div><label for="fees">Fees</label>
+            <select id="fees" name="fees" required autocomplete="off">
+              <option disabled selected>fees</option>
+              <option value="fee1">1 fee</option>
+              <option value="fee2">2 fees</option>
+              <option value="fee3">3 fees</option>
+              <option value="fee6">6 fees</option>
+              <option value="fee12">12 fees</option>
+              <option value="fee24">24 fees</option>
+            </select>
+          </div>
+        <br>
+        <div> <button type="button" class="pay" id="pay">Pay</button></div>
+
+        <h1 id="demo" class="demo"></h1>
+
+
+        <div id="webpay"><img src="https://www.joomlaempresa.cl/images/servicio-webpay-small.png" alt="webpay"
+            class="webpay">
+        </div>
+      </form>
+    </div>
+  </main>
+
+  </main>
+  <footer></footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
