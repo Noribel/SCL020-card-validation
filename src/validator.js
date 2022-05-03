@@ -1,7 +1,7 @@
 const validator ={
   
   isValid: function validar (cardNumber) {
-   let arrayNumeros = new Array ();
+   let arrayNumeros = [];
    let x = 0;
    let total= 0;
    let sumatoria = 0;

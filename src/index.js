@@ -3,7 +3,7 @@ import validator from './validator.js'
 //Botón CONTINUE
 let paginaUno= document.getElementById("continue");
 paginaUno.addEventListener("click", function () {
-  let inicio = document.getElementById("paginaUno");
+  let inicio = document.getElementById("inicio");
   inicio.style.display = "none";
   let paginaDos = document.getElementById("paginaDos");
   paginaDos.style.display = "block";
@@ -16,7 +16,7 @@ paginaUno.addEventListener("click", function () {
 let paginaDos = document.getElementById("buy");
 paginaDos.addEventListener("click", function () {
     //let form = document.getElementById("formulario")
-  let inicio = document.getElementById("paginaUno");
+  let inicio = document.getElementById("inicio");
   inicio.style.display = "none";
   let paginaDos = document.getElementById("paginaDos");
   paginaDos.style.display = "none";
